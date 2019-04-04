@@ -1,0 +1,10 @@
+applications:
+- name: friendlyhello
+  disk_quota: 200M
+  docker:
+    image: your.repo.com/your_name_space/friendlyhello
+    username: YOUR_USERNAME
+  instances: 1
+  memory: 64M
+  random-route: true
+
